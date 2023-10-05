@@ -10,7 +10,7 @@
     
 }
 #MainDados {
-width: 20vw;
+width: 250px;
 }
 #navMain{
     text-align:right;
@@ -44,8 +44,10 @@ body{font-family:"Mooli";
     
     overflow-x:hidden;
     height: 4.5rem;
-    
+    width: 450px;
     background-color: rgba(250, 235, 215, 0.781);
+    margin-left: auto;
+    margin-right: auto;
     
     
     
