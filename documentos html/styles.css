@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Mooli&family=Tilt+Prism&display=swap');
+
+.titulo-pagina{
+    color:rgba(196, 56, 13, 0.836);
+    background-color:rgb(145, 157, 175);
+    text-align: center;
+    height: 60px;
+    font-family:"Tilt Prism"; 
+    height: 2cm;
+    
+}
+#MainDados {
+width: 20vw;
+}
+#navMain{
+    text-align:right;
+    background-color:rgb(145, 157, 175);
+    height: 20px;
+    font-family: "Kanit";
+    
+}
+body{font-family:"Mooli";
+    background-color: rgb(46, 63, 71);
+    text-align: center;
+    
+}
+.imgDados{
+    
+    width: 70%;
+    
+}
+
+#imgDados{
+    width: 15vw;
+}
+.dado{
+    width: 50px;
+    margin-top: 7.5px;
+    text-align: center;
+   
+}
+#linkDadosContainer{
+    
+    
+    overflow-x:hidden;
+    height: 4.5rem;
+    
+    background-color: rgba(250, 235, 215, 0.781);
+    
+    
+    
+    
+    
+
+    
+   
+    border: 2px red inset;
+   
+    display: flex;
+    justify-content:space-evenly;
+    
+    flex-wrap: wrap;
+        
+    
+} 
+
+#d10png{
+    width: 65%;
+}
+
+
+
+
+p{
+color:antiquewhite;
+font-size: 20px;
+}
+#registerBoxLegend{
+    font-size: larger;    
+}
+#registerBox{
+    
+    text-align: justify;
+    color:antiquewhite;
+}
+
