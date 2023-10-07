@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit&family=Mooli&family=Tilt+Prism&display=swap');
 
+
 .titulo-pagina{
     color:rgba(196, 56, 13, 0.836);
     background-color:rgb(145, 157, 175);
@@ -13,6 +14,7 @@
 width: 250px;
 }
 #navMain{
+    
     text-align:right;
     background-color:rgb(145, 157, 175);
     height: 20px;
@@ -42,9 +44,9 @@ body{font-family:"Mooli";
 #linkDadosContainer{
     
     
-    overflow-x:hidden;
-    height: 4.5rem;
-    width: 450px;
+    
+    height: 6.5rem;
+    width: 550px;
     background-color: rgba(250, 235, 215, 0.781);
     margin-left: auto;
     margin-right: auto;
