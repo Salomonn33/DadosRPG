@@ -1,28 +1,61 @@
-@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Mooli&family=Tilt+Prism&display=swap');
-
-
-.titulo-pagina{
-    color:rgba(196, 56, 13, 0.836);
-    background-color:rgb(145, 157, 175);
-    text-align: center;
-    height: 60px;
-    font-family:"Tilt Prism"; 
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@900&family=Kanit&family=Mooli&family=Quintessential&family=Rubik:ital,wght@0,300;0,500;1,300&family=Tilt+Prism&display=swap');
+#titulo-pagina{
+    
+    background-color:rgb(0, 0, 0);
+    border: red 2px;
+    border-style: double double inset double;
+    
+    
+    
     height: 2cm;
+    overflow: hidden;
+    position: relative;
+    justify-content: center;
     
 }
-#MainDados {
-width: 250px;
+#headerDados {
+    opacity: 0.15;
+    position:absolute;
+    top: 0;
+    bottom: 0;
+    padding: 0;
+    right: 70%;
+    left: 30%;
+    
+    
+    
+    width:350px;
+    
+}
+
+
+#titulo{
+    position: relative;
+    text-shadow: 2px 1px 1px #f09620;
+    font-family:"Quintessential"; 
+    color:rgb(216, 68, 23);
+    text-align: center;
+    font-style:oblique;
+    font-weight: 900;
 }
 #navMain{
     
     text-align:right;
-    background-color:rgb(145, 157, 175);
-    height: 20px;
+    background-color: rgba(250, 235, 215, 0.781);
+    height: 50px;
     font-family: "Kanit";
+   
+    display: flex;
+    justify-content: space-evenly;
+    
+    border: red 2px;
+    border-style: inset double double double;
+
     
 }
-body{font-family:"Mooli";
-    background-color: rgb(46, 63, 71);
+body{
+    font-family:"Mooli";
+    background-color: rgb(77, 4, 4);
     text-align: center;
     
 }
@@ -36,55 +69,91 @@ body{font-family:"Mooli";
     width: 15vw;
 }
 .dado{
-    width: 50px;
+    width: 57px;
     margin-top: 7.5px;
     text-align: center;
    
 }
-#linkDadosContainer{
-    
-    
-    
-    height: 6.5rem;
-    width: 550px;
-    background-color: rgba(250, 235, 215, 0.781);
-    margin-left: auto;
-    margin-right: auto;
-    
-    
-    
-    
-    
 
-    
-   
-    border: 2px red inset;
-   
-    display: flex;
-    justify-content:space-evenly;
-    
-    flex-wrap: wrap;
-        
-    
-} 
 
 #d10png{
     width: 65%;
 }
 
+#seccionesInferiores{
+    display: flex;
+    justify-content: space-evenly;
+}
 
-
+.containersMain{
+    background-color: rgba(250, 235, 215, 0.781);
+    box-sizing: border-box;
+    text-align: justify;
+    color:rgb(216, 68, 23);
+    border: 2px red inset;
+    height: 200px;
+    width: 250px;
+    margin-left: 20px;
+   
+    
+}
+#conjuntos{
+    width: 700px;
+}
+#rolleos{
+    margin-right: 20px;
+}
 
 p{
-color:antiquewhite;
+color: rgb(216, 68, 23);
 font-size: 20px;
 }
+
 #registerBoxLegend{
     font-size: larger;    
 }
 #registerBox{
     
+    box-sizing: border-box;
     text-align: justify;
-    color:antiquewhite;
+    color:rgb(216, 68, 23);
+    border: 2px red inset;
 }
 
+#linkDadosContainer{
+    
+    
+    
+    height: 6.7rem;
+    width: 550px;
+    background-color: rgba(250, 235, 215, 0.781);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+ 
+    border: 2px red inset;
+       
+    justify-content:space-evenly;
+    
+    flex-wrap: wrap;
+    display: flex;
+    
+}
+
+@media (max-width: 550px){
+    #linkDadosContainer{
+    
+    justify-content: center;
+    width: 7rem;
+    overflow: auto;
+    margin-left: 5px;
+    margin-right: auto;
+    
+    }
+    #MainDados {
+                  
+            
+            
+        }
+}
