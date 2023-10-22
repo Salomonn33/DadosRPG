@@ -2,25 +2,23 @@
 #titulo-pagina{
     
     background-color:rgb(0, 0, 0);
-    border: red 2px;
-    border-style: double double inset double;
     
     
     
-    height: 2cm;
+    padding-right: 30vw;
+    
+   
     overflow: hidden;
-    position: relative;
-    justify-content: center;
+   
+    width: 500px;
+    
     
 }
 #headerDados {
     opacity: 0.15;
-    position:absolute;
-    top: 0;
-    bottom: 0;
-    padding: 0;
-    right: 70%;
-    left: 30%;
+    
+   
+    
     
     
     
@@ -30,29 +28,55 @@
 
 
 #titulo{
-    position: relative;
+    
     text-shadow: 2px 1px 1px #f09620;
     font-family:"Quintessential"; 
     color:rgb(216, 68, 23);
     text-align: center;
-    font-style:oblique;
+    font-style: oblique;
     font-weight: 900;
+    font-size: 45px;
+    margin-top: 0;
+    
+
+}
+
+.linkNav{
+    display:block;
+    margin-left: 10px;
+    margin-right: 0;
+    margin-top: 0;
+    
+
+}
+#listaLinkNav{
+    display: flex;
+    list-style-type: none;
+    margin-right: 10px;
+    flex-wrap: nowrap;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 #navMain{
     
-    text-align:right;
-    background-color: rgba(250, 235, 215, 0.781);
-    height: 50px;
-    font-family: "Kanit";
-   
-    display: flex;
-    justify-content: space-evenly;
     
+    background-color: rgb(0, 0, 0);
+    height: 2cm;
+    width: 1025px;
+    margin-left: auto;
+    margin-right: auto;
     border: red 2px;
     border-style: inset double double double;
 
+    display: flex;
+    justify-content: space-evenly;
+    
+       
+    font-family: "Kanit";
+    margin-top: 0;    
     
 }
+
 body{
     font-family:"Mooli";
     background-color: rgb(77, 4, 4);
@@ -82,7 +106,6 @@ body{
 
 #seccionesInferiores{
     display: flex;
-    justify-content: space-evenly;
 }
 
 .containersMain{
@@ -90,23 +113,28 @@ body{
     box-sizing: border-box;
     text-align: justify;
     color:rgb(216, 68, 23);
-    border: 2px red inset;
+    border: 2px red double;
     height: 200px;
-    width: 250px;
-    margin-left: 20px;
+    
+    
    
     
 }
 #conjuntos{
     width: 700px;
+    margin-left: auto;
+    margin-right: 25px;
+    overflow:auto;
 }
 #rolleos{
-    margin-right: 20px;
+    margin-right: auto;
+    width: 300px;
+    overflow: auto;
 }
 
 p{
 color: rgb(216, 68, 23);
-font-size: 20px;
+font-size: 18px;
 }
 
 #registerBoxLegend{
@@ -126,13 +154,13 @@ font-size: 20px;
     
     height: 6.7rem;
     width: 550px;
-    background-color: rgba(250, 235, 215, 0.781);
+    box-sizing: content-box;
     margin-left: auto;
     margin-right: auto;
     margin-top: 50px;
     margin-bottom: 50px;
  
-    border: 2px red inset;
+    
        
     justify-content:space-evenly;
     
@@ -141,19 +169,67 @@ font-size: 20px;
     
 }
 
+
+
+@media (max-width: 1024px){
+#titulo-pagina{
+    width: 400px;
+    
+}
+#navMain{
+    width: auto;
+    
+}
+}
 @media (max-width: 550px){
     #linkDadosContainer{
     
-    justify-content: center;
-    width: 7rem;
-    overflow: auto;
-    margin-left: 5px;
-    margin-right: auto;
-    
-    }
-    #MainDados {
-                  
-            
-            
+        justify-content: center;
+        width: 7rem;
+        overflow: auto;
+        margin-left: 0.1vw;
+        margin-right: auto;
+        
+        
         }
+
+ 
+
+    .containersMain{
+        height: 150px;
+    }
+
+    #seccionesInferiores{
+        display: block;
+        justify-content: center;
+        
+    }
+    #conjuntos{
+        width: auto;
+        margin-left: auto;
+        margin-right: auto;
+        }
+    #rolleos{
+        margin-top: 10px;
+        
+        margin-left: 0.1vw;
+        margin-right: auto;
+    }
+}
+@media (max-width: 400px) {
+    #rolleos{
+        margin-top: 10px;
+        width: auto;
+        margin-left: 0.1vw;
+        margin-right: auto;
+
+}
+    
+
+    
+}
+@media (max-width: 280px){
+    
+
+
 }
